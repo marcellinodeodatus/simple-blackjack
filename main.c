@@ -68,7 +68,11 @@ int determineWinner(int playerScore, int computerScore) {
 }
 
 int main() {
+    
     srand(time(NULL));
+    /*this line of code ensures that the random number generator is initialized with a different seed each time the program is executed, 
+    which helps generate more varied and less predictable random numbers.*/
+    
     
     int playerScore = 0, computerScore = 0;
     
